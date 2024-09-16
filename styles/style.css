@@ -1,0 +1,183 @@
+@import url('./reset.css');
+
+/* Сброс стилей браузеров */
+
+
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #14279B;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #14279B;
+    text-align: left;
+
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    flex: 1 1 0px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1141px;
+    margin: 0px auto;
+}
+
+.contact_me img {
+    max-width: 240px;
+    max-height: 236px;
+
+}
+
+.contact_me .card {
+    background-color: #7391dd;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    align-items: center;
+
+}
+
+.contact_me .conteiner {
+    gap: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+nav li {
+    float: left;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav li a {
+    display: block;
+    color: rgb(0, 17, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #5c98bb;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    width: 50%;
+
+}
+
+.image {
+    width: 35%;
+    text-align: right;
+    
+}
+
+.About {
+    width: 580px;
+    height: 217px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: #002265;
+
+}
+
+.textAbot {
+    width: 600px;
+    height: 108px;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+
+}
+.textAbot p {
+    color: #082032;
+    font-size: 23px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+.my_portfolio {
+    margin-bottom: 300px;
+}
+.aditional {
+    margin-bottom: 300px;
+}
+.image {
+    margin-bottom: 399px;
+}
+.text-container {
+    margin-top: 300px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
